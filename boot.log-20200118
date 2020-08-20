@@ -1,0 +1,1319 @@
+[[32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[32m  OK  [0m] Reached target Basic System.
+%G%G[[32m  OK  [0m] Found device /dev/md2.
+         Starting File System Check on /dev/md2...
+[[32m  OK  [0m] Started File System Check on /dev/md2.
+[[32m  OK  [0m] Found device /dev/mapper/vg00-usr.
+[[32m  OK  [0m] Started dracut initqueue hook.
+[[32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[32m  OK  [0m] Reached target Remote File Systems.
+         Starting dracut pre-mount hook...
+[[32m  OK  [0m] Started dracut pre-mount hook.
+         Mounting /sysroot...
+[[32m  OK  [0m] Mounted /sysroot.
+[[32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[32m  OK  [0m] Created slice system-systemd\x2dfsck.slice.
+         Starting File System Check on /dev/vg00/usr...
+[[32m  OK  [0m] Started Reload Configuration from the Real Root.
+[   16.731645] systemd-fsck[932]: /dev/mapper/vg00-usr has unsupported feature(s): metadata_csum
+[[32m  OK  [0m] Started File System Check on /dev/vg00/usr.
+[   16.736375] systemd-fsck[932]: e2fsck: Get a newer version of e2fsck!
+         Mounting /sysroot/usr...
+[[32m  OK  [0m] Mounted /sysroot/usr.
+[[32m  OK  [0m] Reached target Initrd File Systems.
+[[32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+         Starting Plymouth switch root service...
+[[32m  OK  [0m] Stopped target Timers.
+[[32m  OK  [0m] Stopped Cleaning Up and Shutting Down Daemons.
+[[32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[32m  OK  [0m] Stopped target Remote File Systems.
+[[32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[32m  OK  [0m] Stopped dracut pre-mount hook.
+[[32m  OK  [0m] Stopped dracut initqueue hook.
+[[32m  OK  [0m] Stopped target Initrd Default Target.
+[[32m  OK  [0m] Stopped target Basic System.
+[[32m  OK  [0m] Stopped target Slices.
+[[32m  OK  [0m] Stopped target Sockets.
+[[32m  OK  [0m] Stopped target System Initialization.
+[[32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[32m  OK  [0m] Stopped dracut pre-trigger hook.
+[[32m  OK  [0m] Stopped target Swap.
+         Stopping udev Kernel Device Manager...
+[[32m  OK  [0m] Stopped target Local File Systems.
+[[32m  OK  [0m] Stopped Apply Kernel Variables.
+[[32m  OK  [0m] Stopped Load Kernel Modules.
+[[32m  OK  [0m] Stopped target Paths.
+[[32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[32m  OK  [0m] Started Plymouth switch root service.
+[[32m  OK  [0m] Stopped dracut pre-udev hook.
+[[32m  OK  [0m] Stopped dracut cmdline hook.
+[[32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+[[32m  OK  [0m] Closed udev Control Socket.
+[[32m  OK  [0m] Closed udev Kernel Socket.
+         Starting Cleanup udevd DB...
+[[32m  OK  [0m] Started Cleanup udevd DB.
+[[32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+
+Welcome to [0;31mCentOS Linux 7 (Core)[0m!
+
+[[32m  OK  [0m] Stopped Switch Root.
+[[32m  OK  [0m] Stopped Journal Service.
+         Starting Journal Service...
+[[32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+         Mounting Huge Pages File System...
+[[32m  OK  [0m] Listening on udev Kernel Socket.
+[[32m  OK  [0m] Stopped target Switch Root.
+[[32m  OK  [0m] Listening on LVM2 poll daemon socket.
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Listening on Delayed Shutdown Socket.
+[[32m  OK  [0m] Reached target Remote File Systems.
+         Mounting Debug File System...
+[[32m  OK  [0m] Listening on LVM2 metadata daemon socket.
+         Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[[32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+         Starting Create list of required static device nodes for the current kernel...
+         Starting Collect Read-Ahead Data...
+[[32m  OK  [0m] Listening on /dev/initctl Compatibility Named Pipe.
+         Starting Replay Read-Ahead Data...
+[[32m  OK  [0m] Set up automount Arbitrary Executable File Formats File System Automount Point.
+[[32m  OK  [0m] Created slice system-selinux\x2dpolicy\x2dmigrate\x2dlocal\x2dchanges.slice.
+[[32m  OK  [0m] Created slice system-getty.slice.
+         Mounting POSIX Message Queue File System...
+[[32m  OK  [0m] Stopped target Initrd File Systems.
+[[32m  OK  [0m] Stopped target Initrd Root File System.
+[[32m  OK  [0m] Listening on udev Control Socket.
+[[32m  OK  [0m] Created slice User and Session Slice.
+[[32m  OK  [0m] Reached target Slices.
+[[32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[32m  OK  [0m] Mounted Huge Pages File System.
+[[32m  OK  [0m] Mounted Debug File System.
+[[32m  OK  [0m] Started Journal Service.
+[[32m  OK  [0m] Started Collect Read-Ahead Data.
+[[32m  OK  [0m] Started Replay Read-Ahead Data.
+[[32m  OK  [0m] Started Create list of required static device nodes for the current kernel.
+[[32m  OK  [0m] Started LVM2 metadata daemon.
+         Starting Create Static Device Nodes in /dev...
+         Starting Remount Root and Kernel File Systems...
+         Starting Load Kernel Modules...
+[[32m  OK  [0m] Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[[32m  OK  [0m] Started Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Started Remount Root and Kernel File Systems.
+[[32m  OK  [0m] Started Load Kernel Modules.
+         Starting Apply Kernel Variables...
+         Starting udev Coldplug all Devices...
+         Starting udev Kernel Device Manager...
+[[32m  OK  [0m] Reached target Local File Systems (Pre).
+[[32m  OK  [0m] Started udev Kernel Device Manager.
+[[32m  OK  [0m] Started Apply Kernel Variables.
+[[32m  OK  [0m] Started udev Coldplug all Devices.
+         Starting udev Wait for Complete Device Initialization...
+[[32m  OK  [0m] Found device Micron_5200_MTFDDAK480TDN primary.
+[[32m  OK  [0m] Found device Micron_5200_MTFDDAK480TDN primary.
+[[32m  OK  [0m] Found device /dev/ttyS0.
+         Activating swap /dev/sdb3...
+         Activating swap /dev/sda3...
+[[32m  OK  [0m] Activated swap /dev/sda3.
+[[32m  OK  [0m] Activated swap /dev/sdb3.
+[[32m  OK  [0m] Reached target Swap.
+         Mounting /tmp...
+%G%G[[32m  OK  [0m] Mounted /tmp.
+[[32m  OK  [0m] Found device /dev/vg00/usr.
+[[32m  OK  [0m] Found device /dev/vg00/var.
+[[32m  OK  [0m] Found device /dev/vg00/home.
+[[32m  OK  [0m] Started udev Wait for Complete Device Initialization.
+[[32m  OK  [0m] Created slice system-lvm2\x2dpvscan.slice.
+         Starting LVM2 PV scan on device 9:4...
+         Starting Activation of DM RAID sets...
+         Starting File System Check on /dev/vg00/var...
+         Starting File System Check on /dev/vg00/home...
+[   18.872205] systemd-fsck[1400]: /dev/mapper/vg00-home has unsupported feature(s): metadata_csum
+[   18.885427] systemd-fsck[1400]: e2fsck: Get a newer version of e2fsck!
+[[32m  OK  [0m] Started LVM2 PV scan on device 9:4.
+[   18.886092] systemd-fsck[1398]: /dev/mapper/vg00-var has unsupported feature(s): metadata_csum
+[   18.892532] systemd-fsck[1398]: e2fsck: Get a newer version of e2fsck!
+[[32m  OK  [0m] Started Activation of DM RAID sets.
+[[32m  OK  [0m] Started File System Check on /dev/vg00/var.
+[[32m  OK  [0m] Started File System Check on /dev/vg00/home.
+         Mounting /home...
+         Mounting /var...
+[[32m  OK  [0m] Reached target Local Encrypted Volumes.
+[[32m  OK  [0m] Mounted /var.
+[[32m  OK  [0m] Mounted /home.
+         Starting Load/Save Random Seed...
+         Starting Flush Journal to Persistent Storage...
+[[32m  OK  [0m] Reached target Local File Systems.
+         Starting Tell Plymouth To Write Out Runtime Data...
+[[32m  OK  [0m] Started Load/Save Random Seed.
+[[32m  OK  [0m] Started Flush Journal to Persistent Storage.
+[[32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+         Starting Create Volatile Files and Directories...
+[[32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+[[32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[32m  OK  [0m] Reached target System Initialization.
+         Starting Docker Socket for the API.
+         Starting Repair CP Socket.
+[[32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+         Starting Initial cloud-init job (pre-networking)...
+[[32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[32m  OK  [0m] Reached target Timers.
+[[32m  OK  [0m] Listening on Docker Socket for the API.
+[[32m  OK  [0m] Listening on Repair CP Socket.
+[[32m  OK  [0m] Reached target Sockets.
+[[32m  OK  [0m] Reached target Basic System.
+         Starting Software RAID monitoring and management...
+         Starting Load CPU microcode update...
+[[32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+         Starting Authorization Manager...
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting Network Time Service...
+[[32m  OK  [0m] Started irqbalance daemon.
+         Starting Login Service...
+[[32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+[[32m  OK  [0m] Started Software RAID monitoring and management.
+[[32m  OK  [0m] Started Load CPU microcode update.
+[[32m  OK  [0m] Started Network Time Service.
+[[32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+[[32m  OK  [0m] Started Login Service.
+[[32m  OK  [0m] Started Authorization Manager.
+[   19.946619] cloud-init[1508]: Cloud-init v. 18.5 running 'init-local' at Fri, 17 Jan 2020 09:39:22 +0000. Up 19.93 seconds.
+[[32m  OK  [0m] Started Initial cloud-init job (pre-networking).
+[[32m  OK  [0m] Reached target Network (Pre).
+         Starting LSB: Bring up/down networking...
+[[32m  OK  [0m] Started LSB: Bring up/down networking.
+         Starting Initial cloud-init job (metadata service crawler)...
+[[32m  OK  [0m] Reached target Network.
+         Starting /etc/rc.d/rc.local Compatibility...
+         Starting The PHP FastCGI Process Manager...
+         Starting MariaDB database server...
+         Starting Postfix Mail Transport Agent...
+[[32m  OK  [0m] Started Plesk mail filter service for Postfix.
+         Starting containerd container runtime...
+[[32m  OK  [0m] Started Startup script for statistics collecting from Plesk Panel Health Monitor.
+         Starting Startup script for Plesk control panel server...
+         Starting The Apache HTTP Server...
+         Starting Startup script for Panel sw-engine...
+         Starting Xinetd A Powerful Replacement For Inetd...
+         Starting Dynamic System Tuning Daemon...
+[[32m  OK  [0m] Started /etc/rc.d/rc.local Compatibility.
+[[32m  OK  [0m] Started containerd container runtime.
+[[32m  OK  [0m] Started Xinetd A Powerful Replacement For Inetd.
+[   29.682789] cloud-init[1790]: Cloud-init v. 18.5 running 'init' at Fri, 17 Jan 2020 09:39:31 +0000. Up 29.66 seconds.
+[   29.691075] cloud-init[1790]: ci-info: ++++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++++
+         Mounting Arbitrary Executable File Formats File System...
+[   29.697221] cloud-init[1790]: ci-info: +--------+-------+------------------------------+-----------------+--------+-------------------+
+[[1;31mFAILED[0m] Failed to start The PHP FastCGI Process Manager.
+See 'systemctl status php-fpm.service' for details.
+[[32m  OK  [0m] Started Startup script for Plesk control panel server.
+[[32m  OK  [0m] Mounted Arbitrary Executable File Formats File System.
+[   29.712157] cloud-init[1790]: ci-info: | Device |   Up  |           Address            |       Mask      | Scope  |     Hw-Address    |
+[   29.718044] cloud-init[1790]: ci-info: +--------+-------+------------------------------+-----------------+--------+-------------------+
+[   29.718249] cloud-init[1790]: ci-info: |  eth0  |  True |        74.208.235.201        | 255.255.255.255 | global | ac:1f:6b:9b:19:b2 |
+[   29.718461] cloud-init[1790]: ci-info: |  eth0  |  True | fe80::ae1f:6bff:fe9b:19b2/64 |        .        |  link  | ac:1f:6b:9b:19:b2 |
+[   29.718658] cloud-init[1790]: ci-info: |  eth1  | False |              .               |        .        |   .    | ac:1f:6b:9b:19:b3 |
+[   29.718855] cloud-init[1790]: ci-info: |   lo   |  True |          127.0.0.1           |    255.0.0.0    |  host  |         .         |
+[   29.719070] cloud-init[1790]: ci-info: |   lo   |  True |           ::1/128            |        .        |  host  |         .         |
+[   29.719278] cloud-init[1790]: ci-info: +--------+-------+------------------------------+-----------------+--------+-------------------+
+[   29.719471] cloud-init[1790]: ci-info: +++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+[   29.719628] cloud-init[1790]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   29.719770] cloud-init[1790]: ci-info: | Route | Destination  |   Gateway    |     Genmask     | Interface | Flags |
+[   29.727854] cloud-init[1790]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   29.735638] cloud-init[1790]: ci-info: |   0   |   0.0.0.0    | 10.255.255.1 |     0.0.0.0     |    eth0   |   UG  |
+[   29.743575] cloud-init[1790]: ci-info: |   1   | 10.255.255.1 |   0.0.0.0    | 255.255.255.255 |    eth0   |   UH  |
+[   29.743790] cloud-init[1790]: ci-info: |   2   | 169.254.0.0  |   0.0.0.0    |   255.255.0.0   |    eth0   |   U   |
+[   29.743958] cloud-init[1790]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   29.744126] cloud-init[1790]: ci-info: +++++++++++++++++++++++++++Route IPv6 info++++++++++++++++++++++++++++
+[   29.744278] cloud-init[1790]: ci-info: +-------+-------------+--------------------------+-----------+-------+
+[   29.744466] cloud-init[1790]: ci-info: | Route | Destination |         Gateway          | Interface | Flags |
+[   29.745662] cloud-init[1790]: ci-info: +-------+-------------+--------------------------+-----------+-------+
+[   29.752932] cloud-init[1790]: ci-info: |   9   |  fe80::/64  |            ::            |    eth0   |   U   |
+[   29.760862] cloud-init[1790]: ci-info: |   10  |     ::/0    | fe80::250:56ff:fe95:f950 |    eth0   |  UGe  |
+[   29.769032] cloud-init[1790]: ci-info: |   14  |   ff00::/8  |            ::            |    eth0   |   U   |
+[   29.777510] cloud-init[1790]: ci-info: +-------+-------------+--------------------------+-----------+-------+
+[[32m  OK  [0m] Started The Apache HTTP Server.
+[[32m  OK  [0m] Started Startup script for Panel sw-engine.
+[[32m  OK  [0m] Started Postfix Mail Transport Agent.
+[[32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[32m  OK  [0m] Started Initial cloud-init job (metadata service crawler).
+[[32m  OK  [0m] Reached target Network is Online.
+         Starting Startup script for nginx service...
+         Starting System Logging Service...
+[[32m  OK  [0m] Started Dovecot IMAP/POP3 email server.
+         Starting Docker Application Container Engine...
+[[32m  OK  [0m] Reached target Cloud-config availability.
+         Starting Apply the settings specified in cloud-config...
+         Starting Permit User Sessions...
+         Starting OpenSSH server daemon...
+[[32m  OK  [0m] Started System Logging Service.
+[[32m  OK  [0m] Started Permit User Sessions.
+[[32m  OK  [0m] Started Command Scheduler.
+Jan 17 09:39:31 caccaaf NET[1712]: /usr/sbin/dhclient-script : updated /etc/resolv.conf
+         Starting Terminate Plymouth Boot Screen...
+         Starting Wait for Plymouth Boot Screen to Quit...
+[[32m  OK  [0m] Started OpenSSH server daemon.
+[[32m  OK  [0m] Started Startup script for nginx service.
+[[32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Reached target Basic System.
+%G%G[[32m  OK  [0m] Found device /dev/md2.
+         Starting File System Check on /dev/md2...
+[[32m  OK  [0m] Started File System Check on /dev/md2.
+[[32m  OK  [0m] Found device /dev/mapper/vg00-usr.
+[[32m  OK  [0m] Started dracut initqueue hook.
+[[32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[32m  OK  [0m] Reached target Remote File Systems.
+         Starting dracut pre-mount hook...
+[[32m  OK  [0m] Started dracut pre-mount hook.
+         Mounting /sysroot...
+[[32m  OK  [0m] Mounted /sysroot.
+[[32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[32m  OK  [0m] Created slice system-systemd\x2dfsck.slice.
+         Starting File System Check on /dev/vg00/usr...
+[[32m  OK  [0m] Started Reload Configuration from the Real Root.
+[   16.637909] systemd-fsck[934]: /dev/mapper/vg00-usr has unsupported feature(s): metadata_csum
+[[32m  OK  [0m] Started File System Check on /dev/vg00/usr.
+[   16.642932] systemd-fsck[934]: e2fsck: Get a newer version of e2fsck!
+         Mounting /sysroot/usr...
+[[32m  OK  [0m] Mounted /sysroot/usr.
+[[32m  OK  [0m] Reached target Initrd File Systems.
+[[32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+         Starting Plymouth switch root service...
+[[32m  OK  [0m] Stopped target Timers.
+[[32m  OK  [0m] Stopped Cleaning Up and Shutting Down Daemons.
+[[32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[32m  OK  [0m] Stopped target Remote File Systems.
+[[32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[32m  OK  [0m] Stopped target Initrd Default Target.
+[[32m  OK  [0m] Stopped target Basic System.
+[[32m  OK  [0m] Stopped target Sockets.
+[[32m  OK  [0m] Stopped target Paths.
+[[32m  OK  [0m] Stopped target Slices.
+[[32m  OK  [0m] Stopped target System Initialization.
+[[32m  OK  [0m] Stopped target Swap.
+[[32m  OK  [0m] Stopped target Local File Systems.
+[[32m  OK  [0m] Stopped Apply Kernel Variables.
+[[32m  OK  [0m] Stopped Load Kernel Modules.
+[[32m  OK  [0m] Stopped dracut pre-mount hook.
+[[32m  OK  [0m] Stopped dracut initqueue hook.
+[[32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[32m  OK  [0m] Stopped dracut pre-trigger hook.
+         Stopping udev Kernel Device Manager...
+[[32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[32m  OK  [0m] Stopped dracut pre-udev hook.
+[[32m  OK  [0m] Stopped dracut cmdline hook.
+[[32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+[[32m  OK  [0m] Closed udev Kernel Socket.
+[[32m  OK  [0m] Closed udev Control Socket.
+         Starting Cleanup udevd DB...
+[[32m  OK  [0m] Started Cleanup udevd DB.
+[[32m  OK  [0m] Reached target Switch Root.
+[[32m  OK  [0m] Started Plymouth switch root service.
+         Starting Switch Root...
+
+Welcome to [0;31mCentOS Linux 7 (Core)[0m!
+
+[[32m  OK  [0m] Stopped Switch Root.
+[[32m  OK  [0m] Stopped Journal Service.
+         Starting Journal Service...
+         Starting Collect Read-Ahead Data...
+[[32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+[[32m  OK  [0m] Created slice system-getty.slice.
+[[32m  OK  [0m] Listening on LVM2 poll daemon socket.
+[[32m  OK  [0m] Listening on Delayed Shutdown Socket.
+[[32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[32m  OK  [0m] Created slice User and Session Slice.
+[[32m  OK  [0m] Stopped target Switch Root.
+[[32m  OK  [0m] Listening on udev Control Socket.
+[[32m  OK  [0m] Listening on LVM2 metadata daemon socket.
+         Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Created slice system-selinux\x2dpolicy\x2dmigrate\x2dlocal\x2dchanges.slice.
+[[32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+         Mounting POSIX Message Queue File System...
+[[32m  OK  [0m] Stopped target Initrd File Systems.
+[[32m  OK  [0m] Set up automount Arbitrary Executable File Formats File System Automount Point.
+[[32m  OK  [0m] Stopped target Initrd Root File System.
+         Starting Replay Read-Ahead Data...
+         Mounting Debug File System...
+[[32m  OK  [0m] Listening on /dev/initctl Compatibility Named Pipe.
+         Starting Create list of required static device nodes for the current kernel...
+[[32m  OK  [0m] Reached target Slices.
+[[32m  OK  [0m] Reached target Remote File Systems.
+         Mounting Huge Pages File System...
+[[32m  OK  [0m] Listening on udev Kernel Socket.
+[[32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[32m  OK  [0m] Mounted Huge Pages File System.
+[[32m  OK  [0m] Mounted Debug File System.
+[[32m  OK  [0m] Started Journal Service.
+[[32m  OK  [0m] Started Collect Read-Ahead Data.
+[[32m  OK  [0m] Started Replay Read-Ahead Data.
+[[32m  OK  [0m] Started Create list of required static device nodes for the current kernel.
+[[32m  OK  [0m] Started LVM2 metadata daemon.
+         Starting Create Static Device Nodes in /dev...
+         Starting Load Kernel Modules...
+         Starting Remount Root and Kernel File Systems...
+[[32m  OK  [0m] Started Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Started Load Kernel Modules.
+[[32m  OK  [0m] Started Remount Root and Kernel File Systems.
+         Starting udev Coldplug all Devices...
+         Starting Apply Kernel Variables...
+         Starting udev Kernel Device Manager...
+[[32m  OK  [0m] Started Apply Kernel Variables.
+[[32m  OK  [0m] Started udev Kernel Device Manager.
+[[32m  OK  [0m] Started udev Coldplug all Devices.
+         Starting udev Wait for Complete Device Initialization...
+[[32m  OK  [0m] Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[[32m  OK  [0m] Found device Micron_5200_MTFDDAK480TDN primary.
+[[32m  OK  [0m] Found device /dev/ttyS0.
+[[32m  OK  [0m] Found device Micron_5200_MTFDDAK480TDN primary.
+         Activating swap /dev/sdb3...
+%G%G         Activating swap /dev/sda3...
+[[32m  OK  [0m] Reached target Local File Systems (Pre).
+[[32m  OK  [0m] Activated swap /dev/sdb3.
+[[32m  OK  [0m] Activated swap /dev/sda3.
+[[32m  OK  [0m] Found device /dev/vg00/usr.
+[[32m  OK  [0m] Found device /dev/vg00/var.
+[[32m  OK  [0m] Found device /dev/vg00/home.
+[[32m  OK  [0m] Created slice system-lvm2\x2dpvscan.slice.
+         Starting LVM2 PV scan on device 9:4...
+         Starting File System Check on /dev/vg00/home...
+         Starting File System Check on /dev/vg00/var...
+[[32m  OK  [0m] Reached target Swap.
+         Mounting /tmp...
+[   18.661660] systemd-fsck[1389]: /dev/mapper/vg00-var has unsupported feature(s): metadata_csum
+[   18.698304] systemd-fsck[1388]: /dev/mapper/vg00-home has unsupported feature(s): metadata_csum
+[   18.698463] systemd-fsck[1388]: e2fsck: Get a newer version of e2fsck!
+[   18.714342] systemd-fsck[1389]: e2fsck: Get a newer version of e2fsck!
+[[32m  OK  [0m] Mounted /tmp.
+[[32m  OK  [0m] Started LVM2 PV scan on device 9:4.
+[[32m  OK  [0m] Started File System Check on /dev/vg00/home.
+[[32m  OK  [0m] Started File System Check on /dev/vg00/var.
+         Mounting /var...
+         Mounting /home...
+[[32m  OK  [0m] Started udev Wait for Complete Device Initialization.
+[[32m  OK  [0m] Mounted /var.
+[[32m  OK  [0m] Mounted /home.
+         Starting Flush Journal to Persistent Storage...
+         Starting Load/Save Random Seed...
+         Starting Activation of DM RAID sets...
+[[32m  OK  [0m] Started Load/Save Random Seed.
+[[32m  OK  [0m] Started Flush Journal to Persistent Storage.
+[[32m  OK  [0m] Started Activation of DM RAID sets.
+[[32m  OK  [0m] Reached target Local File Systems.
+         Starting Tell Plymouth To Write Out Runtime Data...
+[[32m  OK  [0m] Reached target Local Encrypted Volumes.
+         Starting Create Volatile Files and Directories...
+[[32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+[[32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[32m  OK  [0m] Reached target System Initialization.
+         Starting Docker Socket for the API.
+[[32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+         Starting Initial cloud-init job (pre-networking)...
+[[32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[32m  OK  [0m] Reached target Timers.
+         Starting Repair CP Socket.
+[[32m  OK  [0m] Listening on Docker Socket for the API.
+[[32m  OK  [0m] Listening on Repair CP Socket.
+[[32m  OK  [0m] Reached target Sockets.
+[[32m  OK  [0m] Reached target Basic System.
+         Starting Network Time Service...
+[[32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting Authorization Manager...
+         Starting Software RAID monitoring and management...
+         Starting Login Service...
+[[32m  OK  [0m] Started irqbalance daemon.
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting Load CPU microcode update...
+         Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+[[32m  OK  [0m] Started Network Time Service.
+[[32m  OK  [0m] Started Software RAID monitoring and management.
+[[32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+[[32m  OK  [0m] Started Login Service.
+[[32m  OK  [0m] Started Authorization Manager.
+[[32m  OK  [0m] Started Load CPU microcode update.
+[[32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+[   19.826010] cloud-init[1484]: Cloud-init v. 18.5 running 'init-local' at Fri, 17 Jan 2020 10:35:42 +0000. Up 19.81 seconds.
+[[32m  OK  [0m] Started Initial cloud-init job (pre-networking).
+[[32m  OK  [0m] Reached target Network (Pre).
+         Starting LSB: Bring up/down networking...
+[[32m  OK  [0m] Started LSB: Bring up/down networking.
+[[32m  OK  [0m] Reached target Network.
+         Starting The PHP FastCGI Process Manager...
+[[32m  OK  [0m] Started Plesk mail filter service for Postfix.
+         Starting containerd container runtime...
+         Starting The Apache HTTP Server...
+         Starting Startup script for Plesk control panel server...
+         Starting Xinetd A Powerful Replacement For Inetd...
+         Starting Postfix Mail Transport Agent...
+         Starting Dynamic System Tuning Daemon...
+[[32m  OK  [0m] Started Startup script for statistics collecting from Plesk Panel Health Monitor.
+         Starting /etc/rc.d/rc.local Compatibility...
+         Starting MariaDB database server...
+         Starting Startup script for Panel sw-engine...
+         Starting Initial cloud-init job (metadata service crawler)...
+[[32m  OK  [0m] Started containerd container runtime.
+[[32m  OK  [0m] Started Xinetd A Powerful Replacement For Inetd.
+[[32m  OK  [0m] Started /etc/rc.d/rc.local Compatibility.
+[[1;31mFAILED[0m] Failed to start The PHP FastCGI Process Manager.
+See 'systemctl status php-fpm.service' for details.
+[[32m  OK  [0m] Started Startup script for Plesk control panel server.
+[[32m  OK  [0m] Started The Apache HTTP Server.
+         Mounting Arbitrary Executable File Formats File System...
+[[32m  OK  [0m] Mounted Arbitrary Executable File Formats File System.
+[   31.320201] cloud-init[1830]: Cloud-init v. 18.5 running 'init' at Fri, 17 Jan 2020 10:35:54 +0000. Up 31.31 seconds.
+[   31.337331] cloud-init[1830]: ci-info: ++++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++++
+[   31.337840] cloud-init[1830]: ci-info: +--------+-------+------------------------------+-----------------+--------+-------------------+
+[   31.345392] cloud-init[1830]: ci-info: | Device |   Up  |           Address            |       Mask      | Scope  |     Hw-Address    |
+[   31.352757] [[32m  OK  [0m] Started Startup script for Panel sw-engine.
+cloud-init[1830]: ci-info: +--------+-------+------------------------------+-----------------+--------+-------------------+
+[   31.360980] cloud-init[1830]: ci-info: |  eth0  |  True |        74.208.235.201        | 255.255.255.255 | global | ac:1f:6b:9b:19:b2 |
+[   31.368760] cloud-init[1830]: ci-info: |  eth0  |  True | fe80::ae1f:6bff:fe9b:19b2/64 |        .        |  link  | ac:1f:6b:9b:19:b2 |
+[   31.377175] cloud-init[1830]: ci-info: |  eth1  | False |              .               |        .        |   .    | ac:1f:6b:9b:19:b3 |
+[   31.385293] cloud-init[1830]: ci-info: |   lo   |  True |          127.0.0.1           |    255.0.0.0    |  host  |         .         |
+[   31.385519] cloud-init[1830]: ci-info: |   lo   |  True |           ::1/128            |        .        |  host  |         .         |
+[   31.393695] cloud-init[1830]: ci-info: +--------+-------+------------------------------+-----------------+--------+-------------------+
+[   31.393958] cloud-init[1830]: ci-info: +++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+[   31.402432] cloud-init[1830]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   31.411405] cloud-init[1830]: ci-info: | Route | Destination  |   Gateway    |     Genmask     | Interface | Flags |
+[   31.420161] cloud-init[1830]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   31.429718] cloud-init[1830]: ci-info: |   0   |   0.0.0.0    | 10.255.255.1 |     0.0.0.0     |    eth0   |   UG  |
+[   31.438801] cloud-init[1830]: ci-info: |   1   | 10.255.255.1 |   0.0.0.0    | 255.255.255.255 |    eth0   |   UH  |
+[   31.448450] cloud-init[1830]: ci-info: |   2   | 169.254.0.0  |   0.0.0.0    |   255.255.0.0   |    eth0   |   U   |
+[   31.457977] cloud-init[1830]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   31.467578] cloud-init[1830]: ci-info: +++++++++++++++++++++++++++Route IPv6 info++++++++++++++++++++++++++++
+[   31.476713] cloud-init[1830]: ci-info: +-------+-------------+--------------------------+-----------+-------+
+[   31.486429] cloud-init[1830]: ci-info: | Route | Destination |         Gateway          | Interface | Flags |
+[   31.499277] cloud-init[1830]: ci-info: +-------+-------------+--------------------------+-----------+-------+
+[   31.505419] cloud-init[1830]: ci-info: |   9   |  fe80::/64  |            ::            |    eth0   |   U   |
+[[32m  OK  [0m] Started Postfix Mail Transport Agent.
+[   31.514920] cloud-init[1830]: ci-info: |   10  |     ::/0    | fe80::250:56ff:fe95:f950 |    eth0   |  UGe  |
+[   31.524914] cloud-init[1830]: ci-info: |   14  |   ff00::/8  |            ::            |    eth0   |   U   |
+[   31.525147] cloud-init[1830]: ci-info: +-------+-------------+--------------------------+-----------+-------+
+[[32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[32m  OK  [0m] Started Initial cloud-init job (metadata service crawler).
+[[32m  OK  [0m] Reached target Cloud-config availability.
+[[32m  OK  [0m] Reached target Network is Online.
+[[32m  OK  [0m] Started Dovecot IMAP/POP3 email server.
+         Starting Apply the settings specified in cloud-config...
+         Starting Startup script for nginx service...
+         Starting System Logging Service...
+         Starting Docker Application Container Engine...
+         Starting OpenSSH server daemon...
+         Starting Permit User Sessions...
+[[32m  OK  [0m] Started Permit User Sessions.
+[[32m  OK  [0m] Started OpenSSH server daemon.
+[[32m  OK  [0m] Started Command Scheduler.
+         Starting Terminate Plymouth Boot Screen...
+         Starting Wait for Plymouth Boot Screen to Quit...
+[[32m  OK  [0m] Started System Logging Service.
+[[32m  OK  [0m] Started Startup script for nginx service.
+Jan 17 10:35:51 caccaaf NET[1711]: /usr/sbin/dhclient-script : updated /etc/resolv.conf
+Jan 17 10:35:57 caccaaf NET[2678]: /usr/sbin/dhclient-script : updated /etc/resolv.conf
+[[32m  OK  [0m] Started Show Plymouth Boot Screen.
+%G[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[32m  OK  [0m] Reached target Basic System.
+%G[[32m  OK  [0m] Found device /dev/md2.
+         Starting File System Check on /dev/md2...
+[[32m  OK  [0m] Started File System Check on /dev/md2.
+[[32m  OK  [0m] Found device /dev/mapper/vg00-usr.
+[[32m  OK  [0m] Started dracut initqueue hook.
+[[32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[32m  OK  [0m] Reached target Remote File Systems.
+         Starting dracut pre-mount hook...
+[[32m  OK  [0m] Started dracut pre-mount hook.
+         Mounting /sysroot...
+[[32m  OK  [0m] Mounted /sysroot.
+[[32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[32m  OK  [0m] Created slice system-systemd\x2dfsck.slice.
+         Starting File System Check on /dev/vg00/usr...
+[[32m  OK  [0m] Started Reload Configuration from the Real Root.
+[   16.652754] systemd-fsck[933]: /dev/mapper/vg00-usr has unsupported feature(s): metadata_csum
+[[32m  OK  [0m] Started File System Check on /dev/vg00/usr.
+[   16.657130] systemd-fsck[933]: e2fsck: Get a newer version of e2fsck!
+         Mounting /sysroot/usr...
+[[32m  OK  [0m] Mounted /sysroot/usr.
+[[32m  OK  [0m] Reached target Initrd File Systems.
+[[32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+         Starting Plymouth switch root service...
+[[32m  OK  [0m] Stopped target Timers.
+[[32m  OK  [0m] Stopped Cleaning Up and Shutting Down Daemons.
+[[32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[32m  OK  [0m] Stopped dracut pre-mount hook.
+[[32m  OK  [0m] Stopped target Remote File Systems.
+[[32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[32m  OK  [0m] Stopped dracut initqueue hook.
+[[32m  OK  [0m] Stopped target Initrd Default Target.
+[[32m  OK  [0m] Stopped target Basic System.
+[[32m  OK  [0m] Stopped target Slices.
+[[32m  OK  [0m] Stopped target Paths.
+[[32m  OK  [0m] Stopped target Sockets.
+[[32m  OK  [0m] Stopped target System Initialization.
+[[32m  OK  [0m] Stopped Apply Kernel Variables.
+[[32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[32m  OK  [0m] Stopped dracut pre-trigger hook.
+         Stopping udev Kernel Device Manager...
+[[32m  OK  [0m] Stopped target Local File Systems.
+[[32m  OK  [0m] Stopped Load Kernel Modules.
+[[32m  OK  [0m] Stopped target Swap.
+[[32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[32m  OK  [0m] Started Plymouth switch root service.
+[[32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+[[32m  OK  [0m] Stopped dracut pre-udev hook.
+[[32m  OK  [0m] Stopped dracut cmdline hook.
+[[32m  OK  [0m] Closed udev Control Socket.
+[[32m  OK  [0m] Closed udev Kernel Socket.
+         Starting Cleanup udevd DB...
+[[32m  OK  [0m] Started Cleanup udevd DB.
+[[32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+
+Welcome to [0;31mCentOS Linux 7 (Core)[0m!
+
+[[32m  OK  [0m] Stopped Switch Root.
+[[32m  OK  [0m] Stopped Journal Service.
+         Starting Journal Service...
+         Mounting Debug File System...
+[[32m  OK  [0m] Stopped target Switch Root.
+[[32m  OK  [0m] Stopped target Initrd Root File System.
+[[32m  OK  [0m] Reached target Remote File Systems.
+[[32m  OK  [0m] Created slice system-selinux\x2dpolicy\x2dmigrate\x2dlocal\x2dchanges.slice.
+         Starting Replay Read-Ahead Data...
+         Mounting Huge Pages File System...
+[[32m  OK  [0m] Created slice User and Session Slice.
+         Mounting POSIX Message Queue File System...
+[[32m  OK  [0m] Set up automount Arbitrary Executable File Formats File System Automount Point.
+[[32m  OK  [0m] Listening on Delayed Shutdown Socket.
+[[32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+[[32m  OK  [0m] Stopped target Initrd File Systems.
+[[32m  OK  [0m] Listening on udev Control Socket.
+[[32m  OK  [0m] Listening on LVM2 metadata daemon socket.
+[[32m  OK  [0m] Reached target Slices.
+[[32m  OK  [0m] Listening on LVM2 poll daemon socket.
+[[32m  OK  [0m] Listening on udev Kernel Socket.
+[[32m  OK  [0m] Created slice system-getty.slice.
+[[32m  OK  [0m] Listening on /dev/initctl Compatibility Named Pipe.
+         Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[[32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+         Starting Collect Read-Ahead Data...
+         Starting Create list of required static device nodes for the current kernel...
+[[32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[32m  OK  [0m] Mounted Huge Pages File System.
+[[32m  OK  [0m] Mounted Debug File System.
+[[32m  OK  [0m] Started Journal Service.
+[[32m  OK  [0m] Started Replay Read-Ahead Data.
+[[32m  OK  [0m] Started Collect Read-Ahead Data.
+[[32m  OK  [0m] Started Create list of required static device nodes for the current kernel.
+[[32m  OK  [0m] Started LVM2 metadata daemon.
+         Starting Load Kernel Modules...
+         Starting Create Static Device Nodes in /dev...
+         Starting Remount Root and Kernel File Systems...
+[[32m  OK  [0m] Started Load Kernel Modules.
+[[32m  OK  [0m] Started Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Started Remount Root and Kernel File Systems.
+         Starting udev Coldplug all Devices...
+         Starting udev Kernel Device Manager...
+         Starting Apply Kernel Variables...
+[[32m  OK  [0m] Started Apply Kernel Variables.
+[[32m  OK  [0m] Started udev Coldplug all Devices.
+[[32m  OK  [0m] Started udev Kernel Device Manager.
+         Starting udev Wait for Complete Device Initialization...
+[[32m  OK  [0m] Found device /dev/ttyS0.
+[[32m  OK  [0m] Found device Micron_5200_MTFDDAK480TDN primary.
+[[32m  OK  [0m] Found device Micron_5200_MTFDDAK480TDN primary.
+%G%G         Activating swap /dev/sdb3...
+         Activating swap /dev/sda3...
+[[32m  OK  [0m] Activated swap /dev/sda3.
+[[32m  OK  [0m] Activated swap /dev/sdb3.
+[[32m  OK  [0m] Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[[32m  OK  [0m] Found device /dev/vg00/usr.
+[[32m  OK  [0m] Found device /dev/vg00/home.
+[[32m  OK  [0m] Found device /dev/vg00/var.
+[[32m  OK  [0m] Created slice system-lvm2\x2dpvscan.slice.
+         Starting LVM2 PV scan on device 9:4...
+[[32m  OK  [0m] Reached target Local File Systems (Pre).
+         Starting File System Check on /dev/vg00/home...
+         Starting File System Check on /dev/vg00/var...
+[[32m  OK  [0m] Reached target Swap.
+[   18.658927] systemd-fsck[1390]: /dev/mapper/vg00-var has unsupported feature(s): metadata_csum
+[   18.667328] systemd-fsck[1390]: e2fsck: Get a newer version of e2fsck!
+         Mounting /tmp...
+[   18.670371] systemd-fsck[1389]: /dev/mapper/vg00-home has unsupported feature(s): metadata_csum
+[   18.680200] systemd-fsck[1389]: e2fsck: Get a newer version of e2fsck!
+[[32m  OK  [0m] Mounted /tmp.
+[[32m  OK  [0m] Started LVM2 PV scan on device 9:4.
+[[32m  OK  [0m] Started File System Check on /dev/vg00/home.
+[[32m  OK  [0m] Started File System Check on /dev/vg00/var.
+         Mounting /var...
+         Mounting /home...
+[[32m  OK  [0m] Started udev Wait for Complete Device Initialization.
+         Starting Activation of DM RAID sets...
+[[32m  OK  [0m] Mounted /var.
+[[32m  OK  [0m] Mounted /home.
+         Starting Flush Journal to Persistent Storage...
+         Starting Load/Save Random Seed...
+[[32m  OK  [0m] Started Activation of DM RAID sets.
+[[32m  OK  [0m] Started Load/Save Random Seed.
+[[32m  OK  [0m] Reached target Local Encrypted Volumes.
+[[32m  OK  [0m] Reached target Local File Systems.
+         Starting Tell Plymouth To Write Out Runtime Data...
+[[32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[32m  OK  [0m] Started Flush Journal to Persistent Storage.
+         Starting Create Volatile Files and Directories...
+[[32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+[[32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[32m  OK  [0m] Reached target System Initialization.
+         Starting Repair CP Socket.
+[[32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+         Starting Initial cloud-init job (pre-networking)...
+         Starting Docker Socket for the API.
+[[32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[32m  OK  [0m] Reached target Timers.
+[[32m  OK  [0m] Listening on Repair CP Socket.
+[[32m  OK  [0m] Listening on Docker Socket for the API.
+[[32m  OK  [0m] Reached target Sockets.
+[[32m  OK  [0m] Reached target Basic System.
+         Starting Authorization Manager...
+         Starting Load CPU microcode update...
+         Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+         Starting Login Service...
+[[32m  OK  [0m] Started irqbalance daemon.
+[[32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting Network Time Service...
+         Starting Software RAID monitoring and management...
+         Starting Avahi mDNS/DNS-SD Stack...
+[[32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+[[32m  OK  [0m] Started Load CPU microcode update.
+[[32m  OK  [0m] Started Network Time Service.
+[[32m  OK  [0m] Started Software RAID monitoring and management.
+[[32m  OK  [0m] Started Authorization Manager.
+[[32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+[[32m  OK  [0m] Started Login Service.
+[   19.936620] cloud-init[1508]: Cloud-init v. 18.5 running 'init-local' at Fri, 17 Jan 2020 11:51:35 +0000. Up 19.92 seconds.
+[[32m  OK  [0m] Started Initial cloud-init job (pre-networking).
+[[32m  OK  [0m] Reached target Network (Pre).
+         Starting LSB: Bring up/down networking...
+[[32m  OK  [0m] Started LSB: Bring up/down networking.
+         Starting Initial cloud-init job (metadata service crawler)...
+[[32m  OK  [0m] Reached target Network.
+         Starting Xinetd A Powerful Replacement For Inetd...
+         Starting The PHP FastCGI Process Manager...
+         Starting Startup script for Panel sw-engine...
+         Starting The Apache HTTP Server...
+         Starting Startup script for Plesk control panel server...
+         Starting Postfix Mail Transport Agent...
+         Starting MariaDB database server...
+[[32m  OK  [0m] Started Plesk mail filter service for Postfix.
+[[32m  OK  [0m] Started Startup script for statistics collecting from Plesk Panel Health Monitor.
+         Starting containerd container runtime...
+         Starting Dynamic System Tuning Daemon...
+         Starting /etc/rc.d/rc.local Compatibility...
+[[32m  OK  [0m] Started Xinetd A Powerful Replacement For Inetd.
+[[32m  OK  [0m] Started containerd container runtime.
+[[32m  OK  [0m] Started /etc/rc.d/rc.local Compatibility.
+[[32m  OK  [0m] Started Startup script for Plesk control panel server.
+         Mounting Arbitrary Executable File Formats File System...
+[   37.278878] cloud-init[2040]: Cloud-init v. 18.5 running 'init' at Fri, 17 Jan 2020 11:51:52 +0000. Up 37.26 seconds.
+[[1;31mFAILED[0m] Failed to start The PHP FastCGI Process Manager.
+See 'systemctl status php-fpm.service' for details.
+[[32m  OK  [0m] Mounted Arbitrary Executable File Formats File System.
+[   37.292794] cloud-init[2040]: ci-info: +++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++
+[   37.299019] [[32m  OK  [0mcloud-init] [2040]: Started The Apache HTTP Server.ci-info: +--------+-------+----------------+-----------------+--------+-------------------+
+
+[   37.306267] cloud-init[2040]: ci-info: | Device |   Up  |    Address     |       Mask      | Scope  |     Hw-Address    |
+[   37.313826] cloud-init[2040]: ci-info: +--------+-------+----------------+-----------------+--------+-------------------+
+[   37.321434] cloud-init[2040]: ci-info: |  eth0  |  True | 74.208.235.201 | 255.255.255.255 | global | ac:1f:6b:9b:19:b2 |
+[   37.329220] cloud-init[2040]: ci-info: |  eth1  | False |       .        |        .        |   .    | ac:1f:6b:9b:19:b3 |
+[   37.336902] cloud-init[2040]: ci-info: |   lo   |  True |   127.0.0.1    |    255.0.0.0    |  host  |         .         |
+[   37.344764] cloud-init[2040]: ci-info: +--------+-------+----------------+-----------------+--------+-------------------+
+[   37.353227] cloud-init[2040]: ci-info: +++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+[   37.361631] cloud-init[2040]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   37.370068] cloud-init[2040]: ci-info: | Route | Destination  |   Gateway    |     Genmask     | Interface | Flags |
+[   37.378552] cloud-init[2040]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   37.386943] [cloud-init[32m  OK  [0m[2040]: ci-info: |   0   |   0.0.0.0    | 10.255.255.1 |     0.0.0.0     |    eth0   |   UG  |
+] Started Startup script for Panel sw-engine.
+[   37.395647] cloud-init[2040]: ci-info: |   1   | 10.255.255.1 |   0.0.0.0    | 255.255.255.255 |    eth0   |   UH  |
+[   37.404434] cloud-init[2040]: ci-info: |   2   | 169.254.0.0  |   0.0.0.0    |   255.255.0.0   |    eth0   |   U   |
+[   37.413265] cloud-init[2040]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   37.421667] cloud-init[2040]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+[   37.422012] cloud-init[2040]: ci-info: +-------+-------------+---------+-----------+-------+
+[   37.430860] cloud-init[2040]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+[   37.431453] cloud-init[2040]: ci-info: +-------+-------------+---------+-----------+-------+
+[   37.440450] cloud-init[2040]: ci-info: +-------+-------------+---------+-----------+-------+
+[[32m  OK  [0m] Started Postfix Mail Transport Agent.
+[[32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[32m  OK  [0m] Started Initial cloud-init job (metadata service crawler).
+[[32m  OK  [0m] Reached target Network is Online.
+         Starting Startup script for nginx service...
+[[32m  OK  [0m] Started Dovecot IMAP/POP3 email server.
+         Starting System Logging Service...
+         Starting LSB: Plesk firewall...
+         Starting Docker Application Container Engine...
+         Starting Permit User Sessions...
+         Starting OpenSSH server daemon...
+[[32m  OK  [0m] Reached target Cloud-config availability.
+         Starting Apply the settings specified in cloud-config...
+[[32m  OK  [0m] Started Permit User Sessions.
+[[32m  OK  [0m] Started Command Scheduler.
+         Starting Terminate Plymouth Boot Screen...
+         Starting Wait for Plymouth Boot Screen to Quit...
+[[32m  OK  [0m] Started OpenSSH server daemon.
+[[32m  OK  [0m] Started System Logging Service.
+[[32m  OK  [0m] Started Startup script for nginx service.
+Jan 17 11:51:46 caccaaf NET[1709]: /usr/sbin/dhclient-script : updated /etc/resolv.conf
+[[32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[32m  OK  [0m] Reached target Basic System.
+%G%G[[32m  OK  [0m] Found device /dev/md2.
+         Starting File System Check on /dev/md2...
+[[32m  OK  [0m] Started File System Check on /dev/md2.
+[[32m  OK  [0m] Found device /dev/mapper/vg00-usr.
+[[32m  OK  [0m] Started dracut initqueue hook.
+[[32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[32m  OK  [0m] Reached target Remote File Systems.
+         Starting dracut pre-mount hook...
+[[32m  OK  [0m] Started dracut pre-mount hook.
+         Mounting /sysroot...
+[[32m  OK  [0m] Mounted /sysroot.
+[[32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[32m  OK  [0m] Created slice system-systemd\x2dfsck.slice.
+         Starting File System Check on /dev/vg00/usr...
+[[32m  OK  [0m] Started Reload Configuration from the Real Root.
+[   16.550640] systemd-fsck[934]: /dev/mapper/vg00-usr has unsupported feature(s): metadata_csum
+[[32m  OK  [0m] Started File System Check on /dev/vg00/usr.
+[   16.556825] systemd-fsck[934]: e2fsck: Get a newer version of e2fsck!
+         Mounting /sysroot/usr...
+[[32m  OK  [0m] Mounted /sysroot/usr.
+[[32m  OK  [0m] Reached target Initrd File Systems.
+[[32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+         Starting Plymouth switch root service...
+[[32m  OK  [0m] Stopped target Timers.
+[[32m  OK  [0m] Stopped Cleaning Up and Shutting Down Daemons.
+[[32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[32m  OK  [0m] Stopped target Initrd Default Target.
+[[32m  OK  [0m] Stopped target Basic System.
+[[32m  OK  [0m] Stopped target Sockets.
+[[32m  OK  [0m] Stopped target Slices.
+[[32m  OK  [0m] Stopped target Paths.
+[[32m  OK  [0m] Stopped target System Initialization.
+[[32m  OK  [0m] Stopped target Swap.
+[[32m  OK  [0m] Stopped Apply Kernel Variables.
+[[32m  OK  [0m] Stopped Load Kernel Modules.
+[[32m  OK  [0m] Stopped target Local File Systems.
+[[32m  OK  [0m] Stopped dracut pre-mount hook.
+[[32m  OK  [0m] Stopped target Remote File Systems.
+[[32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[32m  OK  [0m] Stopped dracut initqueue hook.
+[[32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[32m  OK  [0m] Stopped dracut pre-trigger hook.
+         Stopping udev Kernel Device Manager...
+[[32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[32m  OK  [0m] Started Plymouth switch root service.
+[[32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+[[32m  OK  [0m] Stopped dracut pre-udev hook.
+[[32m  OK  [0m] Stopped dracut cmdline hook.
+[[32m  OK  [0m] Closed udev Control Socket.
+[[32m  OK  [0m] Closed udev Kernel Socket.
+         Starting Cleanup udevd DB...
+[[32m  OK  [0m] Started Cleanup udevd DB.
+[[32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+
+Welcome to [0;31mCentOS Linux 7 (Core)[0m!
+
+[[32m  OK  [0m] Stopped Switch Root.
+[[32m  OK  [0m] Stopped Journal Service.
+         Starting Journal Service...
+         Starting Create list of required static device nodes for the current kernel...
+[[32m  OK  [0m] Listening on LVM2 metadata daemon socket.
+[[32m  OK  [0m] Stopped target Switch Root.
+[[32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+[[32m  OK  [0m] Listening on LVM2 poll daemon socket.
+         Mounting Debug File System...
+[[32m  OK  [0m] Set up automount Arbitrary Executable File Formats File System Automount Point.
+[[32m  OK  [0m] Created slice system-getty.slice.
+[[32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+         Starting Replay Read-Ahead Data...
+[[32m  OK  [0m] Created slice User and Session Slice.
+[[32m  OK  [0m] Listening on udev Control Socket.
+[[32m  OK  [0m] Reached target Remote File Systems.
+         Mounting POSIX Message Queue File System...
+[[32m  OK  [0m] Reached target Slices.
+[[32m  OK  [0m] Listening on udev Kernel Socket.
+[[32m  OK  [0m] Listening on /dev/initctl Compatibility Named Pipe.
+[[32m  OK  [0m] Listening on Delayed Shutdown Socket.
+         Starting Collect Read-Ahead Data...
+         Mounting Huge Pages File System...
+         Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[[32m  OK  [0m] Created slice system-selinux\x2dpolicy\x2dmigrate\x2dlocal\x2dchanges.slice.
+[[32m  OK  [0m] Stopped target Initrd File Systems.
+[[32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Stopped target Initrd Root File System.
+[[32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[32m  OK  [0m] Mounted Huge Pages File System.
+[[32m  OK  [0m] Mounted Debug File System.
+[[32m  OK  [0m] Started Journal Service.
+[[32m  OK  [0m] Started Replay Read-Ahead Data.
+[[32m  OK  [0m] Started Collect Read-Ahead Data.
+[[32m  OK  [0m] Started Create list of required static device nodes for the current kernel.
+[[32m  OK  [0m] Started LVM2 metadata daemon.
+         Starting Create Static Device Nodes in /dev...
+         Starting Load Kernel Modules...
+         Starting Remount Root and Kernel File Systems...
+[[32m  OK  [0m] Started Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Started Load Kernel Modules.
+[[32m  OK  [0m] Started Remount Root and Kernel File Systems.
+         Starting udev Coldplug all Devices...
+         Starting Apply Kernel Variables...
+         Starting udev Kernel Device Manager...
+[[32m  OK  [0m] Started Apply Kernel Variables.
+[[32m  OK  [0m] Started udev Kernel Device Manager.
+[[32m  OK  [0m] Started udev Coldplug all Devices.
+         Starting udev Wait for Complete Device Initialization...
+[[32m  OK  [0m] Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[[32m  OK  [0m] Found device Micron_5200_MTFDDAK480TDN primary.
+[[32m  OK  [0m] Found device Micron_5200_MTFDDAK480TDN primary.
+[[32m  OK  [0m] Found device /dev/ttyS0.
+         Activating swap /dev/sdb3...
+         Activating swap /dev/sda3...
+[[32m  OK  [0m] Reached target Local File Systems (Pre).
+[[32m  OK  [0m] Activated swap /dev/sda3.
+[[32m  OK  [0m] Activated swap /dev/sdb3.
+[[32m  OK  [0m] Reached target Swap.
+         Mounting /tmp...
+%G%G[[32m  OK  [0m] Mounted /tmp.
+[[32m  OK  [0m] Found device /dev/vg00/usr.
+[[32m  OK  [0m] Found device /dev/vg00/home.
+[[32m  OK  [0m] Found device /dev/vg00/var.
+[[32m  OK  [0m] Started udev Wait for Complete Device Initialization.
+         Starting Activation of DM RAID sets...
+         Starting File System Check on /dev/vg00/var...
+[   18.568190] systemd-fsck[1398]: /dev/mapper/vg00-var has unsupported feature(s): metadata_csum[
+[32m  OK  [0m] Created slice system-lvm2\x2dpvscan.slice.
+[   18.568532] systemd-fsck[1398]: e2fsck: Get a newer version of e2fsck!
+         Starting LVM2 PV scan on device 9:4...
+         Starting File System Check on /dev/vg00/home...
+[   18.580592] systemd-fsck[1412]: /dev/mapper/vg00-home has unsupported feature(s): metadata_csum
+[   18.614411] systemd-fsck[1412]: e2fsck: Get a newer version of e2fsck!
+[[32m  OK  [0m] Started Activation of DM RAID sets.
+[[32m  OK  [0m] Started File System Check on /dev/vg00/var.
+[[32m  OK  [0m] Started LVM2 PV scan on device 9:4.
+[[32m  OK  [0m] Started File System Check on /dev/vg00/home.
+         Mounting /home...
+         Mounting /var...
+[[32m  OK  [0m] Reached target Local Encrypted Volumes.
+[[32m  OK  [0m] Mounted /var.
+[[32m  OK  [0m] Mounted /home.
+[[32m  OK  [0m] Reached target Local File Systems.
+         Starting Tell Plymouth To Write Out Runtime Data...
+         Starting Load/Save Random Seed...
+         Starting Flush Journal to Persistent Storage...
+[[32m  OK  [0m] Started Load/Save Random Seed.
+[[32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[32m  OK  [0m] Started Flush Journal to Persistent Storage.
+         Starting Create Volatile Files and Directories...
+[[32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+[[32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[32m  OK  [0m] Reached target System Initialization.
+         Starting Docker Socket for the API.
+[[32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[32m  OK  [0m] Reached target Timers.
+[[32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+         Starting Initial cloud-init job (pre-networking)...
+[[32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+         Starting Repair CP Socket.
+[[32m  OK  [0m] Listening on Docker Socket for the API.
+[[32m  OK  [0m] Listening on Repair CP Socket.
+[[32m  OK  [0m] Reached target Sockets.
+[[32m  OK  [0m] Reached target Basic System.
+         Starting Authorization Manager...
+         Starting Load CPU microcode update...
+         Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting Network Time Service...
+[[32m  OK  [0m] Started D-Bus System Message Bus.
+[[32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+         Starting Login Service...
+[[32m  OK  [0m] Started irqbalance daemon.
+         Starting Software RAID monitoring and management...
+[[32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+[[32m  OK  [0m] Started Load CPU microcode update.
+[[32m  OK  [0m] Started Network Time Service.
+[[32m  OK  [0m] Started Software RAID monitoring and management.
+[[32m  OK  [0m] Started Authorization Manager.
+[[32m  OK  [0m] Started Login Service.
+[   19.678421] cloud-init[1512]: Cloud-init v. 18.5 running 'init-local' at Fri, 17 Jan 2020 12:04:38 +0000. Up 19.66 seconds.
+[[32m  OK  [0m] Started Initial cloud-init job (pre-networking).
+[[32m  OK  [0m] Reached target Network (Pre).
+         Starting LSB: Bring up/down networking...
+[[32m  OK  [0m] Started LSB: Bring up/down networking.
+[[32m  OK  [0m] Reached target Network.
+         Starting The PHP FastCGI Process Manager...
+         Starting /etc/rc.d/rc.local Compatibility...
+[[32m  OK  [0m] Started Startup script for statistics collecting from Plesk Panel Health Monitor.
+         Starting Xinetd A Powerful Replacement For Inetd...
+         Starting Startup script for Plesk control panel server...
+         Starting containerd container runtime...
+         Starting MariaDB database server...
+[[32m  OK  [0m] Started Plesk mail filter service for Postfix.
+         Starting The Apache HTTP Server...
+         Starting Dynamic System Tuning Daemon...
+         Starting Startup script for Panel sw-engine...
+         Starting Postfix Mail Transport Agent...
+         Starting Initial cloud-init job (metadata service crawler)...
+[[32m  OK  [0m] Started /etc/rc.d/rc.local Compatibility.
+[[1;31mFAILED[0m] Failed to start The PHP FastCGI Process Manager.
+See 'systemctl status php-fpm.service' for details.
+[[32m  OK  [0m] Started Xinetd A Powerful Replacement For Inetd.
+[[32m  OK  [0m] Started containerd container runtime.
+[[32m  OK  [0m] Started Startup script for Plesk control panel server.
+         Mounting Arbitrary Executable File Formats File System...
+[[32m  OK  [0m] Mounted Arbitrary Executable File Formats File System.
+[[32m  OK  [0m] Started The Apache HTTP Server.
+[   37.414303] cloud-init[2100]: Cloud-init v. 18.5 running 'init' at Fri, 17 Jan 2020 12:04:56 +0000. Up 37.40 seconds.
+[   37.427535] cloud-init[2100]: ci-info: +++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++
+[   37.427807] cloud-init[2100]: ci-info: +--------+-------+----------------+-----------------+--------+-------------------+
+[   37.428509] cloud-init[2100]: ci-info: | Device |   Up  |    Address     |       Mask      | Scope  |     Hw-Address    |
+[[32m  OK  [0m] Started Startup script for Panel sw-engine.
+[   37.435504] cloud-init[2100]: ci-info: +--------+-------+----------------+-----------------+--------+-------------------+
+[   37.435966] cloud-init[2100]: ci-info: |  eth0  |  True | 74.208.235.201 | 255.255.255.255 | global | ac:1f:6b:9b:19:b2 |
+[   37.443770] cloud-init[2100]: ci-info: |  eth1  | False |       .        |        .        |   .    | ac:1f:6b:9b:19:b3 |
+[   37.451362] cloud-init[2100]: ci-info: |   lo   |  True |   127.0.0.1    |    255.0.0.0    |  host  |         .         |
+[   37.459160] cloud-init[2100]: ci-info: +--------+-------+----------------+-----------------+--------+-------------------+
+[   37.467407] cloud-init[2100]: ci-info: +++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+[   37.475725] cloud-init[2100]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   37.484168] cloud-init[2100]: ci-info: | Route | Destination  |   Gateway    |     Genmask     | Interface | Flags |
+[   37.492455] cloud-init[2100]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   37.500954] cloud-init[2100]: ci-info: |   0   |   0.0.0.0    | 10.255.255.1 |     0.0.0.0     |    eth0   |   UG  |
+[   37.509535] cloud-init[2100]: ci-info: |   1   | 10.255.255.1 |   0.0.0.0    | 255.255.255.255 |    eth0   |   UH  |
+[   37.518399] cloud-init[2100]: ci-info: |   2   | 169.254.0.0  |   0.0.0.0    |   255.255.0.0   |    eth0   |   U   |
+[   37.527135] cloud-init[2100]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   37.536279] cloud-init[2100]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+[   37.545429] cloud-init[2100]: ci-info: +-------+-------------+---------+-----------+-------+
+[   37.554446] cloud-init[2100]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+[   37.563035] cloud-init[2100]: ci-info: +-------+-------------+---------+-----------+-------+
+[   37.571724] cloud-init[2100]: ci-info: +-------+-------------+---------+-----------+-------+
+[[32m  OK  [0m] Started Postfix Mail Transport Agent.
+[[32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[32m  OK  [0m] Started Initial cloud-init job (metadata service crawler).
+         Starting Permit User Sessions...
+[[32m  OK  [0m] Reached target Cloud-config availability.
+[[32m  OK  [0m] Reached target Network is Online.
+[[32m  OK  [0m] Started Dovecot IMAP/POP3 email server.
+         Starting Apply the settings specified in cloud-config...
+         Starting Docker Application Container Engine...
+         Starting LSB: Plesk firewall...
+         Starting Startup script for nginx service...
+         Starting System Logging Service...
+         Starting OpenSSH server daemon...
+[[32m  OK  [0m] Started Permit User Sessions.
+[[32m  OK  [0m] Started System Logging Service.
+[[32m  OK  [0m] Started OpenSSH server daemon.
+[[32m  OK  [0m] Started Command Scheduler.
+         Starting Wait for Plymouth Boot Screen to Quit...
+         Starting Terminate Plymouth Boot Screen...
+[[32m  OK  [0m] Started Startup script for nginx service.
+Jan 17 12:04:50 caccaaf NET[1712]: /usr/sbin/dhclient-script : updated /etc/resolv.conf
+[[32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[32m  OK  [0m] Reached target Basic System.
+%G%G[[32m  OK  [0m] Found device /dev/md2.
+         Starting File System Check on /dev/md2...
+[[32m  OK  [0m] Started File System Check on /dev/md2.
+[[32m  OK  [0m] Found device /dev/mapper/vg00-usr.
+[[32m  OK  [0m] Started dracut initqueue hook.
+         Starting dracut pre-mount hook...
+[[32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[32m  OK  [0m] Reached target Remote File Systems.
+[[32m  OK  [0m] Started dracut pre-mount hook.
+         Mounting /sysroot...
+[[32m  OK  [0m] Mounted /sysroot.
+[[32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[32m  OK  [0m] Created slice system-systemd\x2dfsck.slice.
+         Starting File System Check on /dev/vg00/usr...
+[[32m  OK  [0m] Started Reload Configuration from the Real Root.
+[   16.588617] systemd-fsck[934]: /dev/mapper/vg00-usr has unsupported feature(s): metadata_csum
+[[32m  OK  [0m] Started File System Check on /dev/vg00/usr.
+[   16.592342] systemd-fsck[934]: e2fsck: Get a newer version of e2fsck!
+         Mounting /sysroot/usr...
+[[32m  OK  [0m] Mounted /sysroot/usr.
+[[32m  OK  [0m] Reached target Initrd File Systems.
+[[32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+         Starting Plymouth switch root service...
+[[32m  OK  [0m] Stopped target Timers.
+[[32m  OK  [0m] Stopped Cleaning Up and Shutting Down Daemons.
+[[32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[32m  OK  [0m] Stopped target Initrd Default Target.
+[[32m  OK  [0m] Stopped target Basic System.
+[[32m  OK  [0m] Stopped target Paths.
+[[32m  OK  [0m] Stopped target Slices.
+[[32m  OK  [0m] Stopped target Sockets.
+[[32m  OK  [0m] Stopped target System Initialization.
+[[32m  OK  [0m] Stopped Apply Kernel Variables.
+[[32m  OK  [0m] Stopped Load Kernel Modules.
+[[32m  OK  [0m] Stopped target Local File Systems.
+[[32m  OK  [0m] Stopped target Swap.
+[[32m  OK  [0m] Stopped target Remote File Systems.
+[[32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[32m  OK  [0m] Stopped dracut pre-mount hook.
+[[32m  OK  [0m] Stopped dracut initqueue hook.
+[[32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[32m  OK  [0m] Stopped dracut pre-trigger hook.
+         Stopping udev Kernel Device Manager...
+[[32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[32m  OK  [0m] Started Plymouth switch root service.
+[[32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+[[32m  OK  [0m] Stopped dracut pre-udev hook.
+[[32m  OK  [0m] Stopped dracut cmdline hook.
+[[32m  OK  [0m] Closed udev Kernel Socket.
+[[32m  OK  [0m] Closed udev Control Socket.
+         Starting Cleanup udevd DB...
+[[32m  OK  [0m] Started Cleanup udevd DB.
+[[32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+
+Welcome to [0;31mCentOS Linux 7 (Core)[0m!
+
+[[32m  OK  [0m] Stopped Switch Root.
+[[32m  OK  [0m] Stopped Journal Service.
+         Starting Journal Service...
+[[32m  OK  [0m] Listening on LVM2 metadata daemon socket.
+[[32m  OK  [0m] Set up automount Arbitrary Executable File Formats File System Automount Point.
+[[32m  OK  [0m] Created slice system-selinux\x2dpolicy\x2dmigrate\x2dlocal\x2dchanges.slice.
+         Mounting Huge Pages File System...
+         Starting Collect Read-Ahead Data...
+[[32m  OK  [0m] Stopped target Switch Root.
+[[32m  OK  [0m] Stopped target Initrd Root File System.
+[[32m  OK  [0m] Listening on /dev/initctl Compatibility Named Pipe.
+[[32m  OK  [0m] Listening on udev Control Socket.
+         Mounting POSIX Message Queue File System...
+[[32m  OK  [0m] Listening on udev Kernel Socket.
+         Starting Create list of required static device nodes for the current kernel...
+[[32m  OK  [0m] Reached target Remote File Systems.
+[[32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+[[32m  OK  [0m] Listening on LVM2 poll daemon socket.
+[[32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+         Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[[32m  OK  [0m] Created slice User and Session Slice.
+[[32m  OK  [0m] Reached target Slices.
+         Starting Replay Read-Ahead Data...
+[[32m  OK  [0m] Listening on Delayed Shutdown Socket.
+[[32m  OK  [0m] Stopped target Initrd File Systems.
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Created slice system-getty.slice.
+         Mounting Debug File System...
+[[32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[32m  OK  [0m] Mounted Huge Pages File System.
+[[32m  OK  [0m] Mounted Debug File System.
+[[32m  OK  [0m] Started Journal Service.
+[[32m  OK  [0m] Started Collect Read-Ahead Data.
+[[32m  OK  [0m] Started Replay Read-Ahead Data.
+[[32m  OK  [0m] Started Create list of required static device nodes for the current kernel.
+[[32m  OK  [0m] Started LVM2 metadata daemon.
+         Starting Create Static Device Nodes in /dev...
+         Starting Load Kernel Modules...
+         Starting Remount Root and Kernel File Systems...
+[[32m  OK  [0m] Started Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Started Load Kernel Modules.
+[[32m  OK  [0m] Started Remount Root and Kernel File Systems.
+         Starting udev Coldplug all Devices...
+         Starting Apply Kernel Variables...
+         Starting udev Kernel Device Manager...
+[[32m  OK  [0m] Started Apply Kernel Variables.
+[[32m  OK  [0m] Started udev Kernel Device Manager.
+[[32m  OK  [0m] Started udev Coldplug all Devices.
+         Starting udev Wait for Complete Device Initialization...
+[[32m  OK  [0m] Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[[32m  OK  [0m] Found device Micron_5200_MTFDDAK480TDN primary.
+[[32m  OK  [0m] Found device Micron_5200_MTFDDAK480TDN primary.
+[[32m  OK  [0m] Found device /dev/ttyS0.
+         Activating swap /dev/sdb3...
+         Activating swap /dev/sda3...
+[[32m  OK  [0m] Reached target Local File Systems (Pre).
+[[32m  OK  [0m] Activated swap /dev/sdb3.
+%G%G[[32m  OK  [0m] Activated swap /dev/sda3.
+[[32m  OK  [0m] Found device /dev/vg00/usr.
+[[32m  OK  [0m] Found device /dev/vg00/var.
+[[32m  OK  [0m] Found device /dev/vg00/home.
+[[32m  OK  [0m] Created slice system-lvm2\x2dpvscan.slice.
+         Starting LVM2 PV scan on device 9:4...
+         Starting File System Check on /dev/vg00/var...
+         Starting File System Check on /dev/vg00/home...
+[[32m  OK  [0m] Reached target Swap.
+[   18.572294] systemd-fsck[1387]: /dev/mapper/vg00-var has unsupported feature(s): metadata_csum
+         Mounting /tmp...
+[   18.577462] systemd-fsck[1391]: /dev/mapper/vg00-home has unsupported feature(s): metadata_csum
+[[32m  OK  [0m] Started LVM2 PV scan on device 9:4.
+[[32m  OK  [0m] Started File System Check on /dev/vg00/var.
+[[32m  OK  [0m] Started File System Check on /dev/vg00/home.
+[   18.664195] systemd-fsck[1391]: e2fsck: Get a newer version of e2fsck!
+[   18.664549] systemd-fsck[1387]: e2fsck: Get a newer version of e2fsck!
+[[32m  OK  [0m] Mounted /tmp.
+         Mounting /home...
+         Mounting /var...
+[[32m  OK  [0m] Started udev Wait for Complete Device Initialization.
+         Starting Activation of DM RAID sets...
+[[32m  OK  [0m] Mounted /var.
+[[32m  OK  [0m] Mounted /home.
+         Starting Flush Journal to Persistent Storage...
+         Starting Load/Save Random Seed...
+[[32m  OK  [0m] Started Activation of DM RAID sets.
+[[32m  OK  [0m] Reached target Local Encrypted Volumes.
+[[32m  OK  [0m] Reached target Local File Systems.
+         Starting Tell Plymouth To Write Out Runtime Data...
+[[32m  OK  [0m] Started Load/Save Random Seed.
+[[32m  OK  [0m] Started Flush Journal to Persistent Storage.
+[[32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+         Starting Create Volatile Files and Directories...
+[[32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+[[32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[32m  OK  [0m] Reached target System Initialization.
+[[32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+         Starting Initial cloud-init job (pre-networking)...
+         Starting Docker Socket for the API.
+[[32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[32m  OK  [0m] Reached target Timers.
+         Starting Repair CP Socket.
+[[32m  OK  [0m] Listening on Docker Socket for the API.
+[[32m  OK  [0m] Listening on Repair CP Socket.
+[[32m  OK  [0m] Reached target Sockets.
+[[32m  OK  [0m] Reached target Basic System.
+         Starting Network Time Service...
+         Starting Avahi mDNS/DNS-SD Stack...
+[[32m  OK  [0m] Started irqbalance daemon.
+         Starting Load CPU microcode update...
+         Starting Authorization Manager...
+         Starting Login Service...
+         Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+[[32m  OK  [0m] Started D-Bus System Message Bus.
+[[32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+         Starting Software RAID monitoring and management...
+[[32m  OK  [0m] Started Network Time Service.
+[[32m  OK  [0m] Started Load CPU microcode update.
+[[32m  OK  [0m] Started Software RAID monitoring and management.
+[[32m  OK  [0m] Started Login Service.
+[[32m  OK  [0m] Started Authorization Manager.
+[[32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+[   19.858070] cloud-init[1507]: Cloud-init v. 18.5 running 'init-local' at Fri, 17 Jan 2020 14:29:44 +0000. Up 19.84 seconds.
+[[32m  OK  [0m] Started Initial cloud-init job (pre-networking).
+[[32m  OK  [0m] Reached target Network (Pre).
+         Starting LSB: Bring up/down networking...
+[[32m  OK  [0m] Started LSB: Bring up/down networking.
+[[32m  OK  [0m] Reached target Network.
+         Starting The PHP FastCGI Process Manager...
+         Starting MariaDB database server...
+         Starting Startup script for Panel sw-engine...
+         Starting The Apache HTTP Server...
+         Starting /etc/rc.d/rc.local Compatibility...
+         Starting containerd container runtime...
+[[32m  OK  [0m] Started Startup script for statistics collecting from Plesk Panel Health Monitor.
+         Starting Startup script for Plesk control panel server...
+         Starting Xinetd A Powerful Replacement For Inetd...
+         Starting Dynamic System Tuning Daemon...
+         Starting Initial cloud-init job (metadata service crawler)...
+[[32m  OK  [0m] Started /etc/rc.d/rc.local Compatibility.
+[[32m  OK  [0m] Started containerd container runtime.
+[[32m  OK  [0m] Started Xinetd A Powerful Replacement For Inetd.
+         Mounting Arbitrary Executable File Formats File System...
+[[32m  OK  [0m] Started Startup script for Plesk control panel server.
+[[32m  OK  [0m] Mounted Arbitrary Executable File Formats File System.
+[[1;31mFAILED[0m] Failed to start The PHP FastCGI Process Manager.
+See 'systemctl status php-fpm.service' for details.
+[[32m  OK  [0m] Started The Apache HTTP Server.
+[   34.330787] cloud-init[2074]: Cloud-init v. 18.5 running 'init' at Fri, 17 Jan 2020 14:29:59 +0000. Up 34.32 seconds.
+[[32m  OK  [0m] Started Startup script for Panel sw-engine.
+[   34.346987] cloud-init[2074]: ci-info: +++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++
+[   34.347249] cloud-init[2074]: ci-info: +--------+-------+----------------+-----------------+--------+-------------------+
+[   34.347813] cloud-init[2074]: ci-info: | Device |   Up  |    Address     |       Mask      | Scope  |     Hw-Address    |
+[   34.355072] cloud-init[2074]: ci-info: +--------+-------+----------------+-----------------+--------+-------------------+
+[   34.355410] cloud-init[2074]: ci-info: |  eth0  |  True | 74.208.235.201 | 255.255.255.255 | global | ac:1f:6b:9b:19:b2 |
+[   34.363104] cloud-init[2074]: ci-info: |  eth1  | False |       .        |        .        |   .    | ac:1f:6b:9b:19:b3 |
+[   34.363323] cloud-init[2074]: ci-info: |   lo   |  True |   127.0.0.1    |    255.0.0.0    |  host  |         .         |
+[   34.371021] cloud-init[2074]: ci-info: +--------+-------+----------------+-----------------+--------+-------------------+
+[   34.371301] cloud-init[2074]: ci-info: +++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+[   34.379207] cloud-init[2074]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   34.379495] cloud-init[2074]: ci-info: | Route | Destination  |   Gateway    |     Genmask     | Interface | Flags |
+[   34.387510] cloud-init[2074]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   34.387782] cloud-init[2074]: ci-info: |   0   |   0.0.0.0    | 10.255.255.1 |     0.0.0.0     |    eth0   |   UG  |
+[   34.395908] cloud-init[2074]: ci-info: |   1   | 10.255.255.1 |   0.0.0.0    | 255.255.255.255 |    eth0   |   UH  |
+[   34.396121] cloud-init[2074]: ci-info: |   2   | 169.254.0.0  |   0.0.0.0    |   255.255.0.0   |    eth0   |   U   |
+[   34.404176] cloud-init[2074]: ci-info: +-------+--------------+--------------+-----------------+-----------+-------+
+[   34.404562] cloud-init[2074]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+[   34.412866] cloud-init[2074]: ci-info: +-------+-------------+---------+-----------+-------+
+[   34.421399] cloud-init[2074]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+[   34.421634] cloud-init[2074]: ci-info: +-------+-------------+---------+-----------+-------+
+[   34.429980] cloud-init[2074]: ci-info: +-------+-------------+---------+-----------+-------+
+[[32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[32m  OK  [0m] Started Initial cloud-init job (metadata service crawler).
+[[32m  OK  [0m] Reached target Cloud-config availability.
+         Starting OpenSSH server daemon...
+         Starting Permit User Sessions...
+[[32m  OK  [0m] Reached target Network is Online.
+         Starting Startup script for nginx service...
+         Starting System Logging Service...
+         Starting Apply the settings specified in cloud-config...
+         Starting LSB: Plesk firewall...
+         Starting Docker Application Container Engine...
+[[32m  OK  [0m] Started Permit User Sessions.
+[[32m  OK  [0m] Started Command Scheduler.
+         Starting Wait for Plymouth Boot Screen to Quit...
+         Starting Terminate Plymouth Boot Screen...
+[[32m  OK  [0m] Started System Logging Service.
+[[32m  OK  [0m] Started OpenSSH server daemon.
+Jan 17 14:29:53 caccaaf NET[1709]: /usr/sbin/dhclient-script : updated /etc/resolv.conf

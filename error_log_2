@@ -1,0 +1,46 @@
+[Sun Aug 16 03:26:29.985769 2020] [lbmethod_heartbeat:notice] [pid 28980:tid 139737438513280] AH02282: No slotmem from mod_heartmonitor
+[Sun Aug 16 03:26:29.999344 2020] [ssl:warn] [pid 28980:tid 139737438513280] AH01909: RSA certificate configured for default:443 does NOT include an ID which matches the server name
+[Sun Aug 16 03:26:30.000307 2020] [ssl:warn] [pid 28980:tid 139737438513280] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sun Aug 16 03:26:30.001433 2020] [mpm_event:notice] [pid 28980:tid 139737438513280] AH00489: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 configured -- resuming normal operations
+[Sun Aug 16 03:26:30.001448 2020] [core:notice] [pid 28980:tid 139737438513280] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Mon Aug 17 02:56:49.761601 2020] [cgid:error] [pid 5748:tid 139736895092480] [client 147.139.129.213:46050] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:56:49.789397 2020] [cgid:error] [pid 5748:tid 139737037768448] [client 147.139.129.213:46052] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:56:49.843855 2020] [cgid:error] [pid 5748:tid 139736911877888] [client 147.139.129.213:46054] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:56:53.788191 2020] [cgid:error] [pid 5660:tid 139736928663296] [client 147.139.129.213:46056] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:56:54.726245 2020] [cgid:error] [pid 5662:tid 139737020983040] [client 147.139.129.213:46058] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:56:54.836098 2020] [cgid:error] [pid 5660:tid 139737029375744] [client 147.139.129.213:46060] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:58:35.762317 2020] [cgid:error] [pid 8329:tid 139736895092480] [client 147.139.129.213:46106] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:58:36.734896 2020] [cgid:error] [pid 5748:tid 139737071339264] [client 147.139.129.213:46108] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:58:36.751894 2020] [cgid:error] [pid 5748:tid 139737004197632] [client 147.139.129.213:46110] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:58:44.751377 2020] [cgid:error] [pid 5662:tid 139736903485184] [client 147.139.129.213:46112] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:58:44.859945 2020] [cgid:error] [pid 5662:tid 139736979019520] [client 147.139.129.213:46114] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:58:45.833969 2020] [cgid:error] [pid 5661:tid 139737029375744] [client 147.139.129.213:46116] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:58:46.744295 2020] [cgid:error] [pid 8329:tid 139736962234112] [client 147.139.129.213:46118] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Mon Aug 17 02:58:48.002605 2020] [cgid:error] [pid 5660:tid 139736937056000] [client 147.139.129.213:46120] AH01264: script not found or unable to stat: /var/www/vhosts/default/cgi-binkerbynet
+[Tue Aug 18 14:26:07.052253 2020] [mpm_event:notice] [pid 28980:tid 139737438513280] AH00492: caught SIGWINCH, shutting down gracefully
+[Tue Aug 18 14:26:12.661562 2020] [suexec:notice] [pid 3520:tid 140416515348608] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Tue Aug 18 14:26:12.670173 2020] [ssl:warn] [pid 3520:tid 140416515348608] AH01909: RSA certificate configured for default:443 does NOT include an ID which matches the server name
+[Tue Aug 18 14:26:12.671071 2020] [ssl:warn] [pid 3520:tid 140416515348608] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Tue Aug 18 14:26:12.696905 2020] [lbmethod_heartbeat:notice] [pid 3520:tid 140416515348608] AH02282: No slotmem from mod_heartmonitor
+[Tue Aug 18 14:26:12.702900 2020] [ssl:warn] [pid 3520:tid 140416515348608] AH01909: RSA certificate configured for default:443 does NOT include an ID which matches the server name
+[Tue Aug 18 14:26:12.703542 2020] [ssl:warn] [pid 3520:tid 140416515348608] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Tue Aug 18 14:26:12.706307 2020] [mpm_event:notice] [pid 3520:tid 140416515348608] AH00489: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 configured -- resuming normal operations
+[Tue Aug 18 14:26:12.706337 2020] [core:notice] [pid 3520:tid 140416515348608] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Aug 20 07:15:48.445165 2020] [mpm_event:notice] [pid 3520:tid 140416515348608] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Aug 20 07:15:54.014658 2020] [suexec:notice] [pid 18472:tid 140080640927872] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Aug 20 07:15:54.023399 2020] [ssl:warn] [pid 18472:tid 140080640927872] AH01909: RSA certificate configured for default:443 does NOT include an ID which matches the server name
+[Thu Aug 20 07:15:54.024296 2020] [ssl:warn] [pid 18472:tid 140080640927872] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Aug 20 07:15:54.050135 2020] [lbmethod_heartbeat:notice] [pid 18472:tid 140080640927872] AH02282: No slotmem from mod_heartmonitor
+[Thu Aug 20 07:15:54.056112 2020] [ssl:warn] [pid 18472:tid 140080640927872] AH01909: RSA certificate configured for default:443 does NOT include an ID which matches the server name
+[Thu Aug 20 07:15:54.056718 2020] [ssl:warn] [pid 18472:tid 140080640927872] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Aug 20 07:15:54.059625 2020] [mpm_event:notice] [pid 18472:tid 140080640927872] AH00489: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 configured -- resuming normal operations
+[Thu Aug 20 07:15:54.059655 2020] [core:notice] [pid 18472:tid 140080640927872] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Aug 20 07:16:04.535628 2020] [mpm_event:notice] [pid 18472:tid 140080640927872] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Aug 20 07:16:10.018613 2020] [suexec:notice] [pid 18927:tid 140603893643392] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Aug 20 07:16:10.024804 2020] [ssl:warn] [pid 18927:tid 140603893643392] AH01909: RSA certificate configured for default:443 does NOT include an ID which matches the server name
+[Thu Aug 20 07:16:10.025468 2020] [ssl:warn] [pid 18927:tid 140603893643392] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Aug 20 07:16:10.051257 2020] [lbmethod_heartbeat:notice] [pid 18927:tid 140603893643392] AH02282: No slotmem from mod_heartmonitor
+[Thu Aug 20 07:16:10.057103 2020] [ssl:warn] [pid 18927:tid 140603893643392] AH01909: RSA certificate configured for default:443 does NOT include an ID which matches the server name
+[Thu Aug 20 07:16:10.057708 2020] [ssl:warn] [pid 18927:tid 140603893643392] AH02292: Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Aug 20 07:16:10.060203 2020] [mpm_event:notice] [pid 18927:tid 140603893643392] AH00489: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 configured -- resuming normal operations
+[Thu Aug 20 07:16:10.060225 2020] [core:notice] [pid 18927:tid 140603893643392] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'

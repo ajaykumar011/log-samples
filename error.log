@@ -1,0 +1,54 @@
+
+[ N 2020-08-20 07:15:48.4685 3391/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-08-20 07:15:48.4685 3391/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-08-20 07:15:48.4686 3391/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-08-20 07:15:48.4686 3391/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-08-20 07:15:48.4686 3391/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-08-20 07:15:48.4686 3391/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-08-20 07:15:48.4686 3391/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-08-20 07:15:48.4686 3391/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-08-20 07:15:48.4686 3391/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-08-20 07:15:48.4686 3391/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-08-20 07:15:48.4686 3391/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-08-20 07:15:48.4687 3391/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-08-20 07:15:48.4686 3391/Tg Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-08-20 07:15:48.4686 3391/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-08-20 07:15:48.4687 3391/Tg Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-08-20 07:15:48.4687 3391/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-08-20 07:15:48.4687 3391/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-08-20 07:15:48.4687 3391/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-08-20 07:15:48.4688 3391/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-08-20 07:15:48.4688 3391/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-08-20 07:15:48.5019 18329/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-08-20 07:15:48.5128 18332/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-08-20 07:15:48.5129 18332/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-08-20 07:15:48.5296 18332/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 18332
+[ N 2020-08-20 07:15:49.1241 3391/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-08-20 07:15:51.1821 18332/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2020-08-20 07:16:04.5582 18332/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2020-08-20 07:16:04.5582 18332/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2020-08-20 07:16:04.5583 18332/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2020-08-20 07:16:04.5583 18332/Ti Ser/Server.h:902 ]: [ServerThr.6] Freed 0 spare client objects
+[ N 2020-08-20 07:16:04.5583 18332/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2020-08-20 07:16:04.5583 18332/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2020-08-20 07:16:04.5583 18332/Ti Ser/Server.h:558 ]: [ServerThr.6] Shutdown finished
+[ N 2020-08-20 07:16:04.5583 18332/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2020-08-20 07:16:04.5584 18332/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2020-08-20 07:16:04.5584 18332/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2020-08-20 07:16:04.5583 18332/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2020-08-20 07:16:04.5583 18332/Th Ser/Server.h:902 ]: [ServerThr.5] Freed 0 spare client objects
+[ N 2020-08-20 07:16:04.5584 18332/Tk Ser/Server.h:902 ]: [ServerThr.7] Freed 0 spare client objects
+[ N 2020-08-20 07:16:04.5584 18332/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2020-08-20 07:16:04.5584 18332/Th Ser/Server.h:558 ]: [ServerThr.5] Shutdown finished
+[ N 2020-08-20 07:16:04.5584 18332/Tk Ser/Server.h:558 ]: [ServerThr.7] Shutdown finished
+[ N 2020-08-20 07:16:04.5584 18332/Tm Ser/Server.h:902 ]: [ServerThr.8] Freed 0 spare client objects
+[ N 2020-08-20 07:16:04.5584 18332/Tm Ser/Server.h:558 ]: [ServerThr.8] Shutdown finished
+[ N 2020-08-20 07:16:04.5585 18332/To Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2020-08-20 07:16:04.5585 18332/To Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2020-08-20 07:16:04.5912 18797/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2020-08-20 07:16:04.6020 18800/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2020-08-20 07:16:04.6021 18800/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2020-08-20 07:16:04.6188 18800/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 18800
+[ N 2020-08-20 07:16:05.1858 18332/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2020-08-20 07:16:07.2462 18800/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
